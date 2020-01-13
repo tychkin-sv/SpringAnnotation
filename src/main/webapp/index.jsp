@@ -13,7 +13,11 @@
 <body>
 
 <h1>Hello Spring MVC</h1>
-<a href="/welcome">Hello</a>
-
+<div>
+<a href="${pageContext.request.contextPath}/welcome">Hello</a>
+</div>
+<div>
+Path to you root of WebSever - ${pageContext.request.contextPath}
+</div>
 </body>
 </html>
